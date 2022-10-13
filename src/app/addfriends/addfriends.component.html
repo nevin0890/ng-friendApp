@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="row-g3">
+        <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12">
+         
+            <div class="row">
+
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">Name</label>
+                    <input type="text" class="form-control" name="name" [(ngModel)]="name">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">Friend Name</label>
+                    <input name="friendName" type="text" class="form-control" [(ngModel)]="friendName">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">Friend Nick Name</label>
+
+                    <input name="friendNickName" type="text" class="form-control" [(ngModel)]="friendNickName">
+                </div>
+
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="label-control">Describe Your Friend</label>
+                    <input name="DescribeYourFriend" type="text" class="form-control" [(ngModel)]="DescribeYourFriend">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <br>
+                    <button class="btn btn-success" (click)="addFriend()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

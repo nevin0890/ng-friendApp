@@ -7,13 +7,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AddfriendsComponent } from './addfriends/addfriends.component';
+import { ViewfriendsComponent } from './viewfriends/viewfriends.component';
 
-const routes:Routes=[]
+const routes: Routes = [
+  { path: '', component: AddfriendsComponent },
+  { path: 'viewfriends', component: ViewfriendsComponent },
+]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddfriendsComponent,
+    ViewfriendsComponent
   ],
   imports: [
     BrowserModule,
