@@ -10,8 +10,8 @@ export class AddfriendsComponent implements OnInit {
 
   constructor(private api: ApiService) { }
   
-  name = "salby"
-  friendName = "virus"
+  name = ""
+  friendName = ""
   friendNickName = ""
   DescribeYourFriend = ""
   
